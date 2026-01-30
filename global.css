@@ -1,22 +1,88 @@
-/* imports Inter, Noto Sans from Google Fonts (code copied from Google Fonts) */
+
 @import url('https://fonts.googleapis.com/css2?family=Inter&family=Noto+Sans+HK&family=Noto+Sans+JP&display=swap');
 
-/* define some variables for easy reuse inside the "root" pseudo-selector, this
- * way we can easily change the main colors of the site without having to change
- * them in a bunch of different selectors
- *
- * root doesn't select any actual HTML elements, it's just a holder we can use 
- * for styles */
+
 :root {
   --bg-color: white;
   --fg-color: black;
   --link-color: blue;
 }
 
+.header{
+    padding: 80px;
+    text-align: center;
+    background: #0af302;
+    color: rgb(0, 0, 0); 
+}
+
+.header h1 {
+    font-size: 70px;
+}
+
+.footer {
+    padding: 20px;
+    text-align: center;
+    background:#02eff3;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:deeppink
+}
+
+.navbar a{
+    float: center;
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 20px 20px;
+    text-decoration: none;
+    font-size: 40px;
+}
+
+.navbar a:hover {
+    background-color:lightpink;
+    color: white;
+}
+
+*{
+    box-sizing:border-box;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.side {
+    flex: 30%;
+    background-color: aqua;
+    padding: 20px;
+}
+
+.main {
+    flex: 70%;
+    background-color: coral;
+    padding: 20px;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+        flex-direction: column;
+    }   
+}
+
+@media screen and (max-width: 400px) {
+    .navbar a{
+        float: none;
+        width: 100%;
+    }
+}
+
 /* styles that affect everything on the page can go in 'html' */
 html {
   font-family: 'Inter', 'Noto Sans HK', sans-serif;
-  background-color: var(--bg-color);
+  background-color: #0af302;
   color: var(--fg-color);
 }
 
