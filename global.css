@@ -11,7 +11,7 @@
 .header{
     padding: 80px;
     text-align: center;
-    background: #0af302;
+    background: #ffffff;
     color: rgb(0, 0, 0); 
 }
 
@@ -22,12 +22,12 @@
 .footer {
     padding: 20px;
     text-align: center;
-    background:#02eff3;
+    background:#ffffff;
 }
 
 .navbar {
     overflow: hidden;
-    background-color:deeppink
+    background-color:rgb(255, 255, 255)
 }
 
 .navbar a{
@@ -41,8 +41,8 @@
 }
 
 .navbar a:hover {
-    background-color:lightpink;
-    color: white;
+    background-color:rgb(255, 255, 255);
+    color: rgb(252, 9, 204);
 }
 
 *{
@@ -62,7 +62,7 @@
 
 .main {
     flex: 70%;
-    background-color: coral;
+    background-color: rgb(255, 255, 255);
     padding: 20px;
 }
 
@@ -82,7 +82,7 @@
 /* styles that affect everything on the page can go in 'html' */
 html {
   font-family: 'Inter', 'Noto Sans HK', sans-serif;
-  background-color: #0af302;
+  background-color: #ffffff;
   color: var(--fg-color);
 }
 
