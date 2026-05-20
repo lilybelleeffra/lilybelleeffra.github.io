@@ -25,59 +25,27 @@
     background:#ffffff;
 }
 
-.navbar {
+.topnav {
     overflow: hidden;
     background-color:rgb(255, 255, 255)
 }
 
-.navbar a{
-    float: center;
+.topnav a{
+    float: left;
     display: block;
-    color:black;
+    color:rgb(248, 53, 219);
     text-align: center;
-    padding: 20px 20px;
+    padding-left: 200px;
+    padding-right: 200px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .navbar a:hover {
     background-color:rgb(255, 255, 255);
-    color: rgb(252, 9, 204);
+    color: rgb(1, 252, 22);
 }
 
-*{
-    box-sizing:border-box;
-}
-
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.side {
-    flex: 30%;
-    background-color: aqua;
-    padding: 20px;
-}
-
-.main {
-    flex: 70%;
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
-}
-
-@media screen and (max-width: 700px) {
-    .row {
-        flex-direction: column;
-    }   
-}
-
-@media screen and (max-width: 400px) {
-    .navbar a{
-        float: none;
-        width: 100%;
-    }
-}
 
 /* styles that affect everything on the page can go in 'html' */
 html {
@@ -111,39 +79,6 @@ main {
   padding: 72px 0;
 }
 
-nav > ul {
-  list-style: none;
-  padding: 0;
-}
-
-ul.grid {
-  display: flex;
-  flex-direction: row;
-  list-style: none;
-  padding: 0;
-  flex-wrap: wrap;
-}
-
-ul.grid > li {
-  width: 100%;
-  text-align: center;
-  padding: 24px;
-  opacity: 0.5;
-}
-
-ul.grid > li > img {
-  width: 100%;
-  aspect-ratio: 2.39;
-  height: auto;
-  object-fit: cover;
-  filter: blur(2px);
-  transition: all 0.3s ease;
-}
-ul.grid > li:hover > img {
-  filter: blur(0);
-  opacity: 1;
-}
-
 .borders {
   border: 1px solid rgba(255, 255, 255, 0.2);
   transition: all 0.3s ease;
@@ -158,15 +93,3 @@ ul.grid > li:hover > img {
   height: auto;
 }
 
-.byline {
-  text-align: right;
-  font-size: 12px;
-}
-
-.full-width {
-  width: 100%;
-}
-
-figcaption {
-  text-align: center;
-}
