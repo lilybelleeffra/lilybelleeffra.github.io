@@ -130,4 +130,17 @@ a:hover {
     position: relative;
  }
 
+ .contact-links {
+    padding-left: 330px;
+    padding-bottom: 130px;
+ }
+
+ .contact-image {
+    width: 22%;
+    position: relative;
+    float: right;
+    right: 340px;
+    bottom: 230px
+ }
+
  
