@@ -131,16 +131,27 @@ a:hover {
  }
 
  .contact-links {
-    padding-left: 330px;
-    padding-bottom: 130px;
+   position:relative;
+   left: 340px;
+   bottom: 20px;
  }
 
  .contact-image {
     width: 22%;
     position: relative;
-    float: right;
-    right: 340px;
-    bottom: 230px
+    left: 630px;
+    bottom: 200px;
+ }
+
+ .about-text {
+    text-align: justify;
+    letter-spacing: 1px;
+    width: 45%;
+    position: relative;
+    left: 340px;
+    right: 300px;
+    bottom: 170px;
+    
  }
 
  
