@@ -173,8 +173,33 @@ a:hover {
     left: 250px;
  }
 
- .post-gallery {
-    
+ .post-gallery-row {
+   display: flex;
+   flex-wrap: wrap;
+   padding: 100px 100px 1px 4px;    
  }
 
+ .post-gallery-column {
+    flex: 50%;
+    max-width:50%;
+    padding: 4px;
+ }
+
+ .post-gallery-column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 400px;
+    height: auto;
+
+ }
+
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .post-gallery-column {
+    -ms-flex: 100%;
+    flex: 100%;
+    max-width: 100%;
+  }
+}
  
