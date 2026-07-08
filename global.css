@@ -160,7 +160,7 @@ a:hover {
 
  .youtube-video {
     position: relative;
-    left: 330px;
+    left: 250px;
     width: 100%;
     padding-bottom: 50px;
  }
@@ -176,9 +176,24 @@ a:hover {
  .valley-text {
     text-align: justify;
     letter-spacing: 1px;
+    width: 75%;
+    position: relative;
+    left: 155px;
+ }
+
+ .ally-text {
+    text-align: justify;
+    letter-spacing: 1px;
     width: 60%;
     position: relative;
-    left: 250px;
+    left: 250px; 
+ }
+
+ .music-pic {
+    width: 80%;
+    position: relative;
+    left: 150px;
+    top: 20px;
  }
 
 
