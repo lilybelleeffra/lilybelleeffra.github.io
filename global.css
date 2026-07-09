@@ -189,6 +189,15 @@ a:hover {
     left: 250px; 
  }
 
+ .festival-text {
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
+    width: 75%;
+    position: relative;
+    left: 155px; 
+ }
+
  .music-pic {
     width: 80%;
     position: relative;
