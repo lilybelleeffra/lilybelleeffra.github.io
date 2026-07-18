@@ -55,31 +55,43 @@ a:hover {
     padding: 3%;
 }
 
-.topnav {
+.home-nav {
     width: 100%;
     overflow: hidden;
     background-color:rgb(255, 255, 255)
 }
 
-.topnav a { 
+.home-nav a { 
     padding: 15%;
     font-size: 20px;
     width: 50%;
 }
 
-.leftnav {
+.top-nav {
     width: 100%;
-    overflow: auto;
+    overflow: hidden;
     background-color: #ffffff;
 }
 
-.leftnav a{
+.top-nav a{
     float: left;
     text-align: center;
     font-size: 18px;
     width: 50%;
-    padding-top: 10px;
+    padding-top: 2%;
 }
+
+.left-nav {
+    width: 100%;
+    overflow: hidden;
+    font-size: 18px;
+}
+.left-nav a{
+    float: left;
+    padding: 2%;
+}
+
+
 /* css for general galleries */
  .center-gallery {
     display: grid;
@@ -132,33 +144,35 @@ a:hover {
     
  }
 
+
  .contact-links {
    position:relative;
-   left: 100px;
+   left: 28%;
+   bottom: 55px;
  }
 
  .contact-image {
-    width: 40%;
+    width: 20%;
     position: relative;
-    left: 370px;
+    left: 50%;
     bottom: 200px;
  }
 
  .about-text {
+    padding: 2%;
     text-align: justify;
     letter-spacing: 1px;
-    width: 75%;
+    width: 55%;
     position: relative;
-    left: 100px;
+    left: 25%;
     right: 300px;
     bottom: 170px;
  }
 
  .youtube-video {
-    position: relative;
-    left: 250px;
-    width: 100%;
-    padding-bottom: 50px;
+    display: block;
+    margin: auto;
+    padding-bottom: 7%;
  }
 
  .post-text {
