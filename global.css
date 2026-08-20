@@ -43,11 +43,29 @@ a:hover {
 }
 
 .header{
+    padding: 1%;
+    text-align: center;
+    background: #ffffff;
+    color: rgb(0, 0, 0); 
+    width: 100%;
+}
+
+.header-ally{
     padding: 3%;
     text-align: center;
     background: #ffffff;
     color: rgb(0, 0, 0); 
     width: 100%;
+}
+
+.header-ally h1 {
+    font-size: 60px;
+    padding: 2%;
+}
+
+.header-ally h2 {
+ font-size: 30px;
+ padding: 1%;
 }
 
 .header h1 {
@@ -172,7 +190,7 @@ a:hover {
  .youtube-video {
     display: block;
     margin: auto;
-    padding-bottom: 7%;
+    padding-bottom: 2%;
  }
 
  .post-text {
@@ -185,18 +203,26 @@ a:hover {
 
  .valley-text {
     text-align: justify;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     width: 75%;
     position: relative;
     left: 155px;
+    padding-bottom: 4%;
+ }
+
+ .italics {
+    font-style: italic;
+   
+    font-size: 20px;
  }
 
  .ally-text {
     text-align: justify;
     letter-spacing: 1px;
-    width: 60%;
+    width: 75%;
     position: relative;
-    left: 250px; 
+    left: 160px; 
+    padding-bottom: 3%;
  }
 
  .festival-text {
