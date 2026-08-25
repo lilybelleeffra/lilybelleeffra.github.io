@@ -170,12 +170,13 @@ a:hover {
    bottom: 55px;
  }
 
- .contact-image {
+ .contact-image img{
     width: 25%;
+    height: auto;
     position: relative;
     left: 48%;
     bottom: 250px;
- }
+ } 
 
  .about-text {
     padding: 2%;
