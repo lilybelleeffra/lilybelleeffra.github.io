@@ -159,10 +159,8 @@ a:hover {
 
  .video {
     padding: 40% 0 0 0;
-    position: relative;
-    
+    position: relative;   
  }
-
 
  .contact-links {
    position:relative;
@@ -195,21 +193,22 @@ a:hover {
     padding-bottom: 2%;
  }
 
- .post-text {
-    text-align: justify;
-    letter-spacing: 1px;
-    width: 75%;
-    position: relative;
-    left: 150px;
- }
-
- .valley-text {
+ /* .post-text {
     text-align: justify;
     letter-spacing: 1.5px;
     width: 75%;
     position: relative;
     left: 155px;
-    padding-bottom: 4%;
+ } */
+
+ .text {
+    text-align: justify;
+    letter-spacing: 1.5px;
+    width: 75%;
+    position: relative;
+    left: 155px;
+    padding-bottom: 1%;
+    line-height: 20px;
  }
 
  .italics {
@@ -218,14 +217,14 @@ a:hover {
     font-size: 20px;
  }
 
- .ally-text {
+ /* .ally-text {
     text-align: justify;
     letter-spacing: 1px;
     width: 75%;
     position: relative;
     left: 160px; 
     padding-bottom: 2%;
- }
+ } */
 
  .festival-text {
     text-align: justify;
@@ -240,6 +239,7 @@ a:hover {
     position: relative;
     left: 150px;
     top: 1px;
+    margin: 20px;
  }
 
  .music-pic img {
