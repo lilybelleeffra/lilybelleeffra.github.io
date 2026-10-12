@@ -80,12 +80,12 @@ a:hover {
 }
 
 .home-nav a { 
-    padding: 15%;
-    font-size: 20px;
-    width: 50%;
+    padding: 10%;
+    font-size: 30px;
+    width: 100%;
 }
 
-.top-nav {
+/* .top-nav {
     width: 100%;
     overflow: hidden;
     background-color: #ffffff;
@@ -94,20 +94,22 @@ a:hover {
 .top-nav a{
     float: left;
     text-align: center;
-    font-size: 18px;
+    font-size: 35px;
     width: 50%;
     padding-top: 2%;
-}
+} */
 
 .left-nav {
     width: 100%;
     overflow: hidden;
-    font-size: 18px;
+    font-size: 35px;
 }
+
 .left-nav a{
     float: left;
     padding: 2%;
 }
+
 
 
 /* css for general galleries */
@@ -164,7 +166,7 @@ a:hover {
 
  .contact-links {
    position:relative;
-   left: 28%;
+   left: 15%;
    bottom: 55px;
  }
 
@@ -179,10 +181,10 @@ a:hover {
  .about-text {
     padding: 2%;
     text-align: justify;
-    letter-spacing: 1px;
-    width: 50%;
+    letter-spacing: 1.5px;
+    width: 75%;
     position: relative;
-    left: 25%;
+    left: 155px;
     right: 300px;
     bottom: 230px;
  }
@@ -192,14 +194,6 @@ a:hover {
     margin: auto;
     padding-bottom: 2%;
  }
-
- /* .post-text {
-    text-align: justify;
-    letter-spacing: 1.5px;
-    width: 75%;
-    position: relative;
-    left: 155px;
- } */
 
  .text {
     text-align: justify;
@@ -216,15 +210,6 @@ a:hover {
    
     font-size: 20px;
  }
-
- /* .ally-text {
-    text-align: justify;
-    letter-spacing: 1px;
-    width: 75%;
-    position: relative;
-    left: 160px; 
-    padding-bottom: 2%;
- } */
 
  .festival-text {
     text-align: justify;
