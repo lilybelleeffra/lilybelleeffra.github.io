@@ -166,8 +166,8 @@ a:hover {
 
  .contact-links {
    position:relative;
-   left: 15%;
-   bottom: 55px;
+   left: 27%;
+   bottom: 20px;
  }
 
  .contact-image img{
@@ -175,18 +175,18 @@ a:hover {
     height: auto;
     position: relative;
     left: 48%;
-    bottom: 250px;
+    bottom: 200px;
  } 
 
  .about-text {
     padding: 2%;
     text-align: justify;
     letter-spacing: 1.5px;
-    width: 75%;
+    width: 51%;
     position: relative;
-    left: 155px;
+    left: 310px;
     right: 300px;
-    bottom: 230px;
+    bottom: 190px;
  }
 
  .youtube-video {
@@ -235,13 +235,13 @@ a:hover {
 /* css for index gallery w links */
  .index-gallery {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
     grid-auto-rows: auto;
     grid-auto-flow: dense;
     gap: 6px;
     margin-left: 150px;
     margin-right:150px;
-    margin-top: 10px;
+    margin-top: 50px;
  }
 
  .index-gallery img {
