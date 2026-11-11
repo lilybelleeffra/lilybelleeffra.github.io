@@ -141,7 +141,7 @@ a:hover {
 
  /* phone styles  */
 
- @media screen and (max-width: 480px) {
+ @media (max-width: 480px) {
     
     div.center-gallery {
         grid-template-columns: 1fr;
