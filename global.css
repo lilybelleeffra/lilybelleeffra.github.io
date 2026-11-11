@@ -137,15 +137,13 @@ a:hover {
     grid-column: span 2 / auto;
  }
 
- @media screen and (max-width: 768px) {
-    .gallery {
-        grid-template-columns: 1fr 1fr;
-    }
- }
+
+
+ /* phone styles  */
 
  @media screen and (max-width: 480px) {
     
-    div.gallery {
+    div.center-gallery {
         grid-template-columns: 1fr;
     }
 
@@ -157,6 +155,59 @@ a:hover {
     img.wide-image {
         grid-column: auto;
     }
+
+     .center-gallery {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 6px;
+    margin-left: 150px;
+    margin-right:150px;
+    margin-top: 20px;
+    margin-bottom: 5%;
+ }
+
+ .center-gallery img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+ }
+
+
+ img.four-grid-cells {
+    grid-row: span 2 / auto;
+    grid-column: span 2 / auto;
+ }
+
+  .index-gallery {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-auto-rows: auto;
+    grid-auto-flow: dense;
+    gap: 2%;
+    margin-left: 15px;
+    margin-right:15px;
+    margin-top: 5px;
+ }
+
+ .index-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+ }
+
+ img.four-grid-links {
+    grid-row: span 2 / auto;
+    grid-column: span 2 / auto;
+ }
+
+
+
+
+
+
+
  }
 
  .video {
@@ -255,27 +306,7 @@ a:hover {
     grid-column: span 2 / auto;
  }
 
- @media screen and (max-width: 768px) {
-    .gallery {
-        grid-template-columns: 1fr 1fr;
-    }
- }
-
- @media screen and (max-width: 480px) {
-    
-    div.gallery {
-        grid-template-columns: 1fr;
-    }
-
-    img.four-grid-links {
-        grid-row: auto;
-        grid-column: auto;
-    }
-
-    img.wide-image {
-        grid-column: auto;
-    }
- }
+ 
 
  .scroll-gallery {
   background-color: #ffffff;
